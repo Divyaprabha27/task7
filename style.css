@@ -1,0 +1,55 @@
+.row {
+    margin: 0;
+}
+h2,p,label,button,input {
+    font-family: 'Jost', sans-serif;
+}
+h2 {
+    font-weight: bold;
+}
+.center {
+    text-align: center;
+}
+.box {
+    border: 2px solid #000000;
+    padding: 35px;
+    margin: 20px;
+}
+.event-details {
+    border: 2px solid #000000;
+    padding: 35px;
+}
+.event-img img {
+    border-radius: 50%;
+}
+.event-form {
+    padding-left: 35px;
+}
+.event-form label {
+    width: 35%;
+    padding-bottom: 20px;
+}
+.event-form button {
+    border: none;
+    margin-right: 20px;
+    padding: 10px 15px;
+}
+.event-form #submit {
+    background: #339FFF;
+    color: #ffffff;
+}
+.event-form #cancel {
+    background: #cccccc;
+}
+@media screen and (max-width: 991px) {
+    .event-img {
+        width: 100%;
+    }
+    .event-form {
+        width: 100%;
+    }
+    .event-form label,input {
+        display: block;
+        width: 100%;
+    }
+}
